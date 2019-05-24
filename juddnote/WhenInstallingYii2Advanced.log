@@ -1,0 +1,114 @@
+/* 
+
+   Log when installing THIS Yii2 advanced
+
+*/
+C:\xampp\htdocs\yii2>composer create-project --prefer-dist yiisoft/yii2-app-advanced
+Installing yiisoft/yii2-app-advanced (2.0.19)
+  - Installing yiisoft/yii2-app-advanced (2.0.19): Downloading (100%)
+Created project in C:\xampp\htdocs\yii2\yii2-app-advanced
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 68 installs, 0 updates, 0 removals
+  - Installing yiisoft/yii2-composer (2.0.7): Downloading (100%)
+  - Installing phpspec/php-diff (v1.1.0): Downloading (100%)
+  - Installing bower-asset/jquery (3.4.1): Downloading (100%)
+  - Installing bower-asset/yii2-pjax (2.0.7.1): Downloading (100%)
+  - Installing bower-asset/punycode (v1.3.2): Downloading (100%)
+  - Installing bower-asset/inputmask (3.3.11): Downloading (100%)
+  - Installing cebe/markdown (1.2.1): Downloading (100%)
+  - Installing ezyang/htmlpurifier (v4.10.0): Downloading (100%)
+  - Installing yiisoft/yii2 (2.0.19): Downloading (100%)
+  - Installing yiisoft/yii2-gii (2.1.0): Downloading (100%)
+  - Installing sebastian/version (2.0.1): Downloading (100%)
+  - Installing sebastian/resource-operations (1.0.0): Downloading (100%)
+  - Installing sebastian/recursion-context (3.0.0): Downloading (100%)
+  - Installing sebastian/object-reflector (1.1.1): Downloading (100%)
+  - Installing sebastian/object-enumerator (3.0.3): Downloading (100%)
+  - Installing sebastian/global-state (2.0.0): Downloading (100%)
+  - Installing sebastian/exporter (3.1.0): Downloading (100%)
+  - Installing sebastian/environment (3.1.0): Downloading (100%)
+  - Installing sebastian/diff (2.0.1): Downloading (100%)
+  - Installing sebastian/comparator (2.1.3): Downloading (100%)
+  - Installing doctrine/instantiator (1.2.0): Downloading (100%)
+  - Installing phpunit/php-text-template (1.2.1): Downloading (100%)
+  - Installing phpunit/phpunit-mock-objects (5.0.10): Downloading (100%)
+  - Installing phpunit/php-timer (1.0.9): Downloading (100%)
+  - Installing phpunit/php-file-iterator (1.4.5): Downloading (100%)
+  - Installing theseer/tokenizer (1.1.2): Downloading (100%)
+  - Installing sebastian/code-unit-reverse-lookup (1.0.1): Downloading (100%)
+  - Installing phpunit/php-token-stream (2.0.2): Downloading (100%)
+  - Installing phpunit/php-code-coverage (5.3.2): Downloading (100%)
+  - Installing symfony/polyfill-ctype (v1.11.0): Downloading (100%)
+  - Installing webmozart/assert (1.4.0): Downloading (100%)
+  - Installing phpdocumentor/reflection-common (1.0.1): Downloading (100%)
+  - Installing phpdocumentor/type-resolver (0.4.0): Downloading (100%)
+  - Installing phpdocumentor/reflection-docblock (4.3.1): Downloading (100%)
+  - Installing phpspec/prophecy (1.8.0): Downloading (100%)
+  - Installing phar-io/version (1.0.1): Downloading (100%)
+  - Installing phar-io/manifest (1.0.1): Downloading (100%)
+  - Installing myclabs/deep-copy (1.9.1): Downloading (100%)
+  - Installing phpunit/phpunit (6.5.14): Downloading (100%)
+  - Installing codeception/verify (1.0.0): Downloading (100%)
+  - Installing bower-asset/bootstrap (v3.4.1): Downloading (100%)
+  - Installing yiisoft/yii2-bootstrap (2.0.10): Downloading (100%)
+  - Installing symfony/polyfill-php72 (v1.11.0): Downloading (100%)
+  - Installing symfony/polyfill-mbstring (v1.11.0): Downloading (100%)
+  - Installing symfony/polyfill-intl-idn (v1.11.0): Downloading (100%)
+  - Installing symfony/polyfill-iconv (v1.11.0): Downloading (100%)
+  - Installing doctrine/lexer (v1.0.1): Downloading (100%)
+  - Installing egulias/email-validator (2.1.7): Downloading (100%)
+  - Installing swiftmailer/swiftmailer (v6.2.1): Downloading (100%)
+  - Installing yiisoft/yii2-swiftmailer (2.1.2): Downloading (100%)
+  - Installing yiisoft/yii2-debug (2.1.4): Downloading (100%)
+  - Installing fzaninotto/faker (v1.8.0): Downloading (100%)
+  - Installing yiisoft/yii2-faker (2.0.4): Downloading (100%)
+  - Installing codeception/phpunit-wrapper (6.6.1): Downloading (100%)
+  - Installing codeception/stub (2.1.0): Downloading (100%)
+  - Installing behat/gherkin (v4.6.0): Downloading (100%)
+  - Installing symfony/dom-crawler (v4.2.8): Downloading (100%)
+  - Installing symfony/css-selector (v4.2.8): Downloading (100%)
+  - Installing symfony/browser-kit (v4.2.4): Downloading (100%)
+  - Installing symfony/yaml (v4.2.8): Downloading (100%)
+  - Installing symfony/contracts (v1.1.0): Downloading (100%)
+  - Installing symfony/event-dispatcher (v4.2.8): Downloading (100%)
+  - Installing symfony/console (v4.2.8): Downloading (100%)
+  - Installing symfony/finder (v4.2.8): Downloading (100%)
+  - Installing ralouphie/getallheaders (2.0.5): Downloading (100%)
+  - Installing psr/http-message (1.0.1): Downloading (100%)
+  - Installing guzzlehttp/psr7 (1.5.2): Downloading (100%)
+  - Installing codeception/base (2.5.6): Downloading (100%)
+sebastian/global-state suggests installing ext-uopz (*)
+phpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (^2.5.5)
+phpunit/phpunit suggests installing phpunit/php-invoker (^1.1)
+phpunit/phpunit suggests installing ext-xdebug (*)
+symfony/polyfill-intl-idn suggests installing ext-intl (For best performance)
+egulias/email-validator suggests installing ext-intl (PHP Internationalization Libraries are required to use the SpoofChecking validation)
+swiftmailer/swiftmailer suggests installing ext-intl (Needed to support internationalized email addresses)
+swiftmailer/swiftmailer suggests installing true/punycode (Needed to support internationalized email addresses, if ext-intl is not installed)
+symfony/browser-kit suggests installing symfony/process
+symfony/contracts suggests installing psr/cache (When using the Cache contracts)
+symfony/contracts suggests installing psr/container (When using the Service contracts)
+symfony/contracts suggests installing symfony/cache-contracts-implementation
+symfony/contracts suggests installing symfony/event-dispatcher-implementation
+symfony/contracts suggests installing symfony/http-client-contracts-implementation
+symfony/contracts suggests installing symfony/service-contracts-implementation
+symfony/contracts suggests installing symfony/translation-contracts-implementation
+symfony/event-dispatcher suggests installing symfony/dependency-injection
+symfony/event-dispatcher suggests installing symfony/http-kernel
+symfony/console suggests installing symfony/lock
+symfony/console suggests installing symfony/process
+symfony/console suggests installing psr/log (For using the console logger)
+codeception/base suggests installing aws/aws-sdk-php (For using AWS Auth in REST module and Queue module)
+codeception/base suggests installing codeception/specify (BDD-style code blocks)
+codeception/base suggests installing codeception/phpbuiltinserver (Start and stop PHP built-in web server for your tests)
+codeception/base suggests installing flow/jsonpath (For using JSONPath in REST module)
+codeception/base suggests installing phpseclib/phpseclib (for SFTP option in FTP Module)
+codeception/base suggests installing league/factory-muffin (For DataFactory module)
+codeception/base suggests installing league/factory-muffin-faker (For Faker support in DataFactory module)
+codeception/base suggests installing symfony/phpunit-bridge (For phpunit-bridge support)
+codeception/base suggests installing stecman/symfony-console-completion (For BASH autocompletion)
+Package phpunit/phpunit-mock-objects is abandoned, you should avoid using it. No replacement was suggested.
+Writing lock file
+Generating autoload files
